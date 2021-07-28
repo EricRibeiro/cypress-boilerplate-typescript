@@ -1,0 +1,22 @@
+{
+  "name": "cypress-boilerplate-typescript",
+  "version": "1.0.0",
+  "description": "A (hopefully) not very opinionated cypress boilerplate with typescript",
+  "repository": "https://github.com/EricRibeiro/cypress-boilerplate-typescript",
+  "author": "Eric Ribeiro",
+  "license": "Apache-2.0",
+  "scripts": {
+    "cy:verify": "cypress verify",
+    "cy:info": "cypress info",
+    "cy:version": "cypress version",
+    "cy:cache:list": "cypress cache list",
+    "cy:run": "cypress run",
+    "cy:run:record": "cypress run --record",
+    "cy:open": "cypress open"
+  },
+  "devDependencies": {
+    "@types/cypress": "^1.1.3",
+    "cypress": "^8.0.0",
+    "typescript": "^4.3.5"
+  }
+}
